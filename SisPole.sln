@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{19AC5609-A66F-4AE9-9A12-E916B1E5666E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{2F126B34-3BBE-48F5-BE2C-E70AC5102082}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{88F413F8-BF7B-441C-8A1B-C468F7E0DC1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{DCF906B1-21B7-4BA4-9331-8F7C2130307B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{046F2C01-29E4-4E93-BE95-66F54A3554DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{C6F4B26F-182E-45AF-9898-CBEEA67D1332}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCuting", "4.2 - CrossCuting", "{D4299E72-8653-4833-B144-3E96C0926F00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisPole.MVC", "SisPole.MVC\SisPole.MVC.csproj", "{8CCC382D-6780-4B31-804A-D2DF79EFA23B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CCC382D-6780-4B31-804A-D2DF79EFA23B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CCC382D-6780-4B31-804A-D2DF79EFA23B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CCC382D-6780-4B31-804A-D2DF79EFA23B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CCC382D-6780-4B31-804A-D2DF79EFA23B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C6F4B26F-182E-45AF-9898-CBEEA67D1332} = {046F2C01-29E4-4E93-BE95-66F54A3554DF}
+		{D4299E72-8653-4833-B144-3E96C0926F00} = {046F2C01-29E4-4E93-BE95-66F54A3554DF}
+		{8CCC382D-6780-4B31-804A-D2DF79EFA23B} = {19AC5609-A66F-4AE9-9A12-E916B1E5666E}
+	EndGlobalSection
+EndGlobal
